@@ -6,3 +6,5 @@ My task was to build a CMS-style blog site similar to a Wordpress site, where de
 ## Photos/Video Link
 
 ### Other Links
+
+[GitHub Repo](https://github.com/smrsun/techBlog_MVC)

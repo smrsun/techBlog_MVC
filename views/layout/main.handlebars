@@ -1,0 +1,33 @@
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>The Tech Blog</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <div class="flex column justify-content-flex- start">
+            <h1>Tech Blog</h1>
+    <nav>
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main class="container container-fluid mt-5">
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+            
+    </div>
+    
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+    </body>
+</html>
